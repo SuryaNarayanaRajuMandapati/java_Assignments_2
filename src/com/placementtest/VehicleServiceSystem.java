@@ -112,7 +112,7 @@ class ServiceVehicle extends Vehicle implements ServiceOperations{
 			System.out.println("Invalid Service Center");
 			return;
 		}
-		this.serviceCategory = center;
+		this.serviceCenterName = center;
 		System.out.println();
 		System.out.println("Service Center Updated Successfully");
 	}
